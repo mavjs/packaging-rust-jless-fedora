@@ -1,0 +1,18 @@
+--- jless-0.9.0/Cargo.toml	1970-01-01T00:00:01+00:00
++++ jless-0.9.0/Cargo.toml	2023-08-02T18:08:12.368643+00:00
+@@ -31,11 +31,11 @@
+ version = "4.0"
+ features = ["derive"]
+ 
+-[dependencies.clipboard]
+-version = "0.5"
++[dependencies.copypasta]
++version = "0.8"
+ 
+-[dependencies.isatty]
+-version = "0.1"
++[dependencies.atty]
++version = "0.2"
+ 
+ [dependencies.lazy_static]
+ version = "1.4.0"
