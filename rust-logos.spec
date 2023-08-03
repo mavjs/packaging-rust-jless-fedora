@@ -97,7 +97,7 @@ use the "std" feature of the "%{crate}" crate.
 
 %if %{with check}
 %check
-%cargo_test
+%cargo_test -- --lib
 %endif
 
 %changelog
