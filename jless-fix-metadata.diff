@@ -6,15 +6,15 @@
  
 -[dependencies.clipboard]
 -version = "0.5"
-+[dependencies.copypasta]
++[dependencies.clipboard]
 +version = "0.8"
-+package = "clipboard"
++package = "copypasta"
  
 -[dependencies.isatty]
 -version = "0.1"
-+[dependencies.atty]
++[dependencies.isatty]
 +version = "0.2"
-+package = "isatty"
++package = "atty"
  
  [dependencies.lazy_static]
  version = "1.4.0"
