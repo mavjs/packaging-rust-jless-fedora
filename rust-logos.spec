@@ -5,7 +5,7 @@
 %global crate logos
 
 Name:           rust-logos
-Version:        0.12.0
+Version:        0.12.1
 Release:        %autorelease
 Summary:        Create ridiculously fast Lexers
 
@@ -32,7 +32,7 @@ use the "%{crate}" crate.
 %files          devel
 #workaround as the project does not include LICENSE files in workspaces.
 #%license LICENSE-MIT LICENSE-APACHE
-%doc %{crate_instdir}/README.md
+#%doc %{crate_instdir}/README.md
 %{crate_instdir}/
 
 %package     -n %{name}+default-devel
