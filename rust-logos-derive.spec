@@ -5,7 +5,7 @@
 %global crate logos-derive
 
 Name:           rust-logos-derive
-Version:        0.12.0
+Version:        0.12.1
 Release:        %autorelease
 Summary:        Create ridiculously fast Lexers
 
@@ -31,7 +31,7 @@ use the "%{crate}" crate.
 
 %files          devel
 # FIXME: no license files detected
-%doc %{crate_instdir}/README.md
+#%doc %{crate_instdir}/README.md
 %{crate_instdir}/
 
 %package     -n %{name}+default-devel
