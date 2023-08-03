@@ -30,7 +30,8 @@ This package contains library source intended for building other packages which
 use the "%{crate}" crate.
 
 %files          devel
-%license LICENSE-MIT LICENSE-APACHE
+#workaround as the project does not include LICENSE files in workspaces.
+#%license LICENSE-MIT LICENSE-APACHE
 %doc %{crate_instdir}/README.md
 %{crate_instdir}/
 
