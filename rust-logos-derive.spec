@@ -5,7 +5,7 @@
 %global crate logos-derive
 
 Name:           rust-logos-derive
-Version:        0.13.0
+Version:        0.12.0
 Release:        %autorelease
 Summary:        Create ridiculously fast Lexers
 
