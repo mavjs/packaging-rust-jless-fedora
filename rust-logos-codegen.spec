@@ -5,7 +5,7 @@
 %global crate logos-codegen
 
 Name:           rust-logos-codegen
-Version:        0.13.0
+Version:        0.12.0
 Release:        %autorelease
 Summary:        Implementation details for logos-codegen and logos-derive
 
